@@ -36,7 +36,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 dbConfig = isProduction ? process.env.DATABASE_URL : dbConfig;
 let db = pgp(dbConfig);
 
-$(window).load(function () {
+/*$(window).load(function () {
 $('form[role="search"]').submit(function (event) {
   event.preventDefault();
   var s= $('input[type="text"',this).val;
@@ -61,7 +61,7 @@ $('form[role="search"]').submit(function (event) {
 
 });
 });
-
+*/
 
 
 
